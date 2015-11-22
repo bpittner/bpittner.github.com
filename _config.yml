@@ -1,7 +1,7 @@
 name: "Ben Pittner"
 description: ""
 
-url: "http://benpittner.com/"
+url: "http://benpittner.com"
 
 paginate: 4
 paginate_path: "page:num"
