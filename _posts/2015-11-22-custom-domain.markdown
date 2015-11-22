@@ -47,7 +47,7 @@ Note the necessary trailing '.' character in the second entry.
 
 ## 3. Wait!
 
-DNS changes are never instantaneous. It's takes time to propagate around the world! Github's documentation gives an example of using the "dig" command on Mac or Linux to check if your two "A" records were set up correctly, but that didn't work for me as an indication that all the changes were ready. I found using the "ping" command more useful, and it works on Mac, Linux, and Windows. Simply ping your apex domain, and if the reply comes back from either of the two Github IP addresses, you should be good to go.
+DNS changes are never instantaneous. It takes time to propagate around the world! Github's documentation gives an example of using the "dig" command on Mac or Linux to check if your two "A" records were set up correctly, but that didn't work for me as an indication that all the changes were ready. I found using the "ping" command more useful, and it works on Mac, Linux, and Windows. Simply ping your apex domain, and if the reply comes back from either of the two Github IP addresses, you should be good to go.
 
 <pre>
 ping benpittner.com<br/>
