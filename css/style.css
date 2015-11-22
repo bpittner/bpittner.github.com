@@ -1,5 +1,6 @@
 /* azee - Minimal Blog theme for Jekyll v1.0
-@2014 owwwlab
+@2014 owwwlab  
+@2015 benpittner
 http://themeforest.net/user/owwwlab/portfolio 
 **************************************************/
 
@@ -146,10 +147,10 @@ header{
 #contact-wrapper{
 	position: absolute;
 	background: #222222;
-	top: 100%;
+	/*top: 100%; */
 	left: 0;
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	z-index: 10;
 }
 
@@ -162,7 +163,7 @@ header{
 
 #contact-wrapper .contact-icon{
 	font-size: 42px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 
@@ -179,14 +180,14 @@ header{
 	font-size: 28px;
 }
 
-#contact-list li a{
+#contact-list div {
 	font-family: 'Open Sans Condensed';
 	font-size: 30px;
 }
 #contact-close{
 	display: block;
 	position: absolute;
-	bottom: 20px;
+	bottom: 70px;
 	left: 50%;
 	margin-left: -15px;
 	padding: 5px;
