@@ -14,12 +14,12 @@
     </head>
     <body>
        <header>
-            <div id="logo">
+            <!--<div id="logo">
                 <img src="{{site.url}}/img/person.jpg" alt="">
-            </div>
+            </div>-->
             <div id="site-heading">
-                <h2 class="title">Carmelia Rivera</h2>
-                <h3 class="subtitle">Blogger with design passion</h3>
+                <h2 class="title">{{site.name}}</h2>
+                <h3 class="subtitle">{{site.description}}</h3>
             </div>
             <ul id="nav">
                  <li class="{% if page.url == '/pages/about/' %}active{% endif %}"><a href="{{site.url}}/pages/about">About</a></li>
