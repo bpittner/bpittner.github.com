@@ -5,3 +5,7 @@
 .spacer {
 	padding-top: 1px;
 }
+
+.invisible {
+	opacity: 0;
+}

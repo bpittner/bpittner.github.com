@@ -15,11 +15,11 @@ azee - Minimal Blog theme for Jekyll  main JS file
 
     $('#contact-section').on('click',function(e){
     	e.preventDefault();
-    	$contactwrapper.animate({top:0},300);
+    	$contactwrapper.animate({"margin-top":"-260px"},300);
     })
     $('#contact-close').on('click',function(e){
     	e.preventDefault();
-    	$contactwrapper.animate({top:'100%'},300);
+    	$contactwrapper.animate({"margin-top":"0px"},300);
     })
 
  })(jQuery);
