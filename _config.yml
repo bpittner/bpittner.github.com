@@ -1,3 +1,11 @@
+name: "Ben Pittner"
+description: ""
+
+url: "http://localhost:4000/"
+
+paginate: 4
+paginate_path: "page:num"
+
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
@@ -8,7 +16,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap2
+title : Ben Pittner
 tagline: Site Tagline
 author :
   name : Name Lastname
@@ -16,6 +24,8 @@ author :
   github : username
   twitter : username
   feedburner : feedname
+paginate: 4
+paginate_path: "page:num"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
