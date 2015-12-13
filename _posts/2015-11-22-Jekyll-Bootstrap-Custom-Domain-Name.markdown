@@ -1,6 +1,6 @@
 ---
 layout: post_simple
-title:  "Setting up a custom domain name with Jekyll and Github Pages"
+title:  "Setting up a Custom Domain Name with Jekyll and Github Pages"
 date:   2015-11-22 
 
 
