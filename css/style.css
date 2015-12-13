@@ -643,6 +643,13 @@ blockquote{
 	color: #f3f3f3;
 }
 
+@media (min-width: 1200px){
+.container {
+    width: 1024px !important;
+}
+
+}
+
 @media screen and (max-width: 768px) {
 
 .post-item,.page-contents{
