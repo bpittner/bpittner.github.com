@@ -21,7 +21,7 @@ Remote desktop can either be configured in source control as part of your cloud 
 
 First, log into your [Azure management portal](https://manage.windowsazure.com). Navigate to your cloud service, go to the configuration tab, and click on "Remote" at the bottom.
 
-<img src="/img/debugrecycling/remote-desktop.png" style="width: 100%"/>
+<img src="/img/debugrecycling/remote-desktop.jpg" style="width: 100%"/>
 
 In the dialog window that comes up choose which role(s) for which you want to enable access, a username / password combination, an existing certificate (or create a new one), and the expiration time for remote access. After confirming, it will take a minute or two for the remote desktop access to take effect.
 
@@ -59,6 +59,6 @@ In the text entry field at the bottom, type "g" and hit enter to let the debugge
 
 It will continue churning for a little bit, then it should stop on the exception that's causing your problem. As you can see in the highlighted output below, there was an exception thrown in my AutomationUtils.cs file on line 192 - a deliberate throw new Exception() I put in for the purposes of this post. 
 
-<img src="/img/debugrecycling/stacktrace.png" style="width: 100%"/>
+<img src="/img/debugrecycling/stacktrace.jpg" style="width: 100%"/>
 
 Fix your error, re-deploy your application, and you should be good to go!
