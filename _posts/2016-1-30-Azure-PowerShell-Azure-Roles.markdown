@@ -46,9 +46,18 @@ Once you have your account linked up to Azure PowerShell, the sky's the limit as
 [Download Azure PowerShell](https://github.com/Azure/azure-powershell/releases/download/v1.0.1-November2015/azure-powershell.1.0.1.msi)
 
 <pre>
-Add-AzureAccount   # Open authentication dialog to import an Azure Account
-Get-AzurePublishSettingsFile
+# Open authentication dialog to import an Azure Account
+Add-AzureAccount    
+
+# Open a browser window to generate and download a publish settings file
+Get-AzurePublishSettingsFile    
+
+# Import subscriptions using a publish settings file
 Import-AzurePublishSettingsFile -PublishSettingsFile [publish_settings_file_path]
+
+# Retrieve all imported subscriptions
 Get-AzureSubscription
+
+# Set a subscription to be the active one
 Set-AzureSubscription -SubscriptionName [subscription_name]
 </pre>

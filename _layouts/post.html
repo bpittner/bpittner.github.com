@@ -37,13 +37,6 @@ layout: default
                 </div> 
             </div>
             <p id="post-meta">{{ tags_content }}</p>
-            <div class="post-tags">
-                <i class="fa fa-tags"></i>
-                {% for tag in page.tags %}
-                <a class="tag_list_link" href="{{site.url}}/tag/{{ tag }}">{{ tag }}</a>
-                <span class="seperator">,</span>
-                {% endfor %}
-            </div>
             <ul class="post-socials">
                 <li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&t={{page.title}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://twitter.com/intent/tweet?original_referer={{site.url}}{{page.url}}&text={{page.title}}&url={{site.url}}{{page.url}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
