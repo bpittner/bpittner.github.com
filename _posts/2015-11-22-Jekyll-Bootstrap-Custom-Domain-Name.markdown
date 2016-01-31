@@ -2,12 +2,10 @@
 layout: post_simple
 title:  "Setting up a Custom Domain Name with Jekyll and Github Pages"
 date:   2015-11-22 
+permalink: "/blog/Setting-up-a-Custom-Domain-Name-with-Jekyll-and-Github-Pages"
 
 
-
-tags:
-- blog
-- jekyll
+tags: [blog, jekyll]
 ---
 
 I think it's fitting that my first blog post is about something I dealt with while setting up my blog. I'm using Jekyll Bootstrap hosted in Github pages. It's a quick and easy way to host static content for free by leveraging Github as your web hosting provider. There's a great tutorial for getting your blog setup [here](http://jekyllbootstrap.com/usage/jekyll-quick-start.html). 

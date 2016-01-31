@@ -2,11 +2,10 @@
 layout: post_simple
 title:  "Debugging Recycling Cloud Service Roles in Azure"
 date:   2015-12-13 
+permalink: "/blog/Debugging-Recycling-Cloud-Service-Roles-in-Azure"
 
 
-
-tags:
-- azure
+tags: [azure]
 ---
 
 It can be frustrating enough to diagnose errors that prevent your .NET applications from starting, but bring Azure Cloud Services into the picture and it becomes even more so. One of the more annoying errors in Azure is when your roles fail to start and keep recycling themselves. Depending on the underlying issue and your type of role (web vs. worker), the debugging process will look different. For web roles, assuming you have the right .pdb level and custom error configurations, you can often work with the stack trace shown when you try to access the site. 
