@@ -34,7 +34,7 @@ The second method, certificate based authentication, is what I prefer for creati
 
 The best part of the second method is that once you have the file, you can script out the import process. This means so long as you bundle your deployment scripts with the file, they can be run on any PC or server without having to manually fill out an authentication dialog.
 
-Regardless of which path you took, you now have your subscriptions imported. When you execute certain cmdlets, they execute against the actively selected subscription. To see a list of which ones are available and set one, use the "Get-AzureSubscription" and the "Set-AzureSubscription -SubscriptionName [subscription_name]" cmdlets.
+Regardless of which path you took, you now have your subscriptions imported. When you execute certain cmdlets, they execute against the actively selected subscription. To see a list of which ones are available and set one, use the "Get-AzureSubscription" and the "Select-AzureSubscription -SubscriptionName [subscription_name]" cmdlets.
 
 <div class="spacer"></div>
 
@@ -59,5 +59,5 @@ Import-AzurePublishSettingsFile -PublishSettingsFile [publish_settings_file_path
 Get-AzureSubscription
 
 # Set a subscription to be the active one
-Set-AzureSubscription -SubscriptionName [subscription_name]
+Select-AzureSubscription -SubscriptionName [subscription_name]
 </pre>
